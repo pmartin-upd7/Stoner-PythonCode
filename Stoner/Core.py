@@ -23,7 +23,7 @@ from importlib import import_module
 from textwrap import TextWrapper
 
 import numpy as np
-from numpy import NaN  # NOQA pylint: disable=unused-import
+from numpy import nan  # NOQA pylint: disable=unused-import NaN -> nan
 from numpy import ma
 
 from .compat import string_types, int_types, index_types, _pattern_type, path_types
