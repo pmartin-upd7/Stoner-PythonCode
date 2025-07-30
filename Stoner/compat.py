@@ -132,9 +132,9 @@ def get_filedialog(what="file", **opts):
 
 
 if np_version.minor >= 20:
-    int_types += (int, np.int0, np.int8, np.int16, np.int32, np.int64)
+    int_types += (int, np.int_, np.int8, np.int16, np.int32, np.int64)
 else:
-    int_types += (np.int, np.int0, np.int8, np.int16, np.int32, np.int64)
+    int_types += (int, np.int_, np.int8, np.int16, np.int32, np.int64)
 
 index_types = string_types + int_types + (_pattern_type,)
 
